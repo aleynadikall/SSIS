@@ -14,4 +14,8 @@ ALTER TABLE [dbo].[LogErrorTable] ADD  CONSTRAINT [DF_LogErrorTable_Errordatetim
 GO
 
 SELECT * FROM LogErrorTable
+--truncate table LogErrorTable
+
+SELECT * FROM [dbo].[MetaDataHotelDetails]
+--truncate table [dbo].[MetaDataHotelDetails]
 
